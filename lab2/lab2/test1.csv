@@ -1,0 +1,39 @@
+AMD Ryzen 5 3550H;
+Task:;factorial
+OpType:;int64_t (long lnog)
+Opt:;None
+InsCount:;10000000
+Timer:;now(), lib chrono
+Time:;0
+LNum:;1
+AllTime:;7,046281
+AvgTime:;0,00000070
+AbsError:;0,00000207
+RelError:;3,94%
+TaskPerf:;96,0578101
+;
+Task:;log
+OpType:;int64_t (long lnog)
+Opt:;None
+InsCount:;10000000
+Timer:;now(), lib chrono
+Time:;0
+LNum:;2
+AllTime:;7,084648
+AvgTime:;0,00000071
+AbsError:;0,00000207
+RelError:;3,92%
+TaskPerf:;96,07915908
+;
+Task:;powf
+OpType:;float
+Opt:;None
+InsCount:;10000000
+Timer:;now(), lib chrono
+Time:;0
+LNum:;3
+AllTime:;7,078801
+AvgTime:;0,00000071
+AbsError:;0,00000207
+RelError:;3,92%
+TaskPerf:;96,07592052
